@@ -3,8 +3,8 @@ import clsx from 'clsx'
 import { ReactNode } from 'react';
 
 export interface ButtonProps {
-  children: ReactNode;
-  asChild?: boolean;
+  children: ReactNode
+  asChild?: boolean
 }
 
 export function Button({ children, asChild }: ButtonProps) {

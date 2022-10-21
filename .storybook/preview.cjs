@@ -10,7 +10,10 @@ export const parameters = {
       date: /Date$/,
     },
   },
-  docs: {
-    theme: themes.dark
+  darkMode: {
+    // Override the default dark theme
+    dark: { ...themes.dark, appBg: 'black' },
+    // Override the default light theme
+    light: { ...themes.normal, appBg: 'red' }
   }
 }
