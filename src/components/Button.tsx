@@ -1,10 +1,11 @@
-import { Slot } from '@radix-ui/react-slot'
 import clsx from 'clsx'
-import { ReactNode } from 'react';
+
+import { ReactNode } from 'react'
+import { Slot } from '@radix-ui/react-slot'
 
 export interface ButtonProps {
-  children: ReactNode
   asChild?: boolean
+  children: ReactNode
 }
 
 export function Button({ children, asChild }: ButtonProps) {
